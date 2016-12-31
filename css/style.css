@@ -116,7 +116,7 @@ blockquote {
 ----------------------------------------------------------------------------- */
 .header {
 	color: #ffffff;
-	background-color: rgba(24, 124, 127);
+	background-color: #187C7F;
 	padding: 10px 0;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -476,7 +476,7 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #4E97A8;
+	color: #187C7F;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
@@ -511,7 +511,7 @@ textarea {
 /* Fixed Header
 ----------------------------------------------------------------------------- */
 .fixed-header-on .header {
-	background-color: rgba(33, 44, 42, 0.9);
+	background-color: #187C7F;
 	padding: 5px 0;
 }
 .fixed-header-on .site-name {
@@ -554,7 +554,7 @@ textarea {
 	float: left;
 }
 .site-name {
-	font-size: 36px;
+	font-size: 24px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
