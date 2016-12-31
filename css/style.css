@@ -511,7 +511,7 @@ textarea {
 /* Fixed Header
 ----------------------------------------------------------------------------- */
 .fixed-header-on .header {
-	background-color: #187C7F;
+	background-color: #363d3d;
 	padding:0px 0;
 }
 .fixed-header-on .site-name {
