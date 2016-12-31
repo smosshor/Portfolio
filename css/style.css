@@ -476,11 +476,11 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #187C7F;
+	color: #A2CACB;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: #187C7F;
+	color: #A2CACB;
 }
 @media (min-width:0px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
