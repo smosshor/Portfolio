@@ -226,7 +226,7 @@ blockquote {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 .translucent-bg.blue:after {
-	background-color: rgba(85, 172, 238, 0.7);
+	background-color: rgba(24, 124, 127);
 }
 .translucent-bg .container {
 	z-index: 3;
@@ -387,8 +387,8 @@ x	background-color: #333333;
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {
-	background-color: #96ebdf;
-	border-color: #96ebdf;
+	background-color: #187C7F;
+	border-color: #187C7F;
 	color: #ffffff;
 }
 .nav-pills > li > a {
@@ -427,7 +427,7 @@ textarea {
 	border-radius: 0px;
 }
 .modal-{
-	background-color: #96ebdf;
+	background-color: #187C7F;
 	color: #ffffff;
 }
 .modal-h4 {
@@ -480,7 +480,7 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: #96ebdf;
+	color: #187C7F;
 }
 @media (min-width:0px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
@@ -673,7 +673,7 @@ textarea {
 	bottom: -1px;
 	left: 0;
 	right: -1px;
-	background-color: rgb(150, 235, 223);
+	background-color: rgb(24, 124, 127);
 	cursor: pointer;
 	overflow: hidden;
 	opacity: 0;
