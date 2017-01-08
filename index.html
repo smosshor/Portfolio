@@ -476,8 +476,8 @@
                                 <p> I am currently designing a chat-based tool for mentors to support mentee design making as part of an independent study based on research into peer mentoring and career decision making. More to come soon!</p>
                             </div>
                             <div class="col-md-8">
-                                    <a title="Decision Blueprint" href="#">
-                                        <img class="thumbnail img-responsive" src="images/bdm/Decision%20Aid-06.png">
+                                    <a title="Decision Blueprint" href="#" data-toggle="lightbox">
+                                        <img class="img-responsive" src="images/bdm/Decision%20Aid-06.png">
                                     </a>
                             </div>
                             </div>
@@ -675,6 +675,10 @@ to fifty high-potential, underserved students for 6 weeks. Modified and develope
 		</div>
 	</div>
 </div>
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
 
 		<!-- section end -->
 			<!-- .footer start -->

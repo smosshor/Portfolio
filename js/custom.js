@@ -15,3 +15,8 @@ $('.thumbnail').click(function(){
   	$('#myModal').modal({show:true});
 });
 });
+
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
