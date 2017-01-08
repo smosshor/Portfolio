@@ -476,7 +476,7 @@
                                 <p> I am currently designing a chat-based tool for mentors to support mentee design making as part of an independent study based on research into peer mentoring and career decision making. More to come soon!</p>
                             </div>
                             <div class="col-md-8">
-                                    <a data-title="Decision Blueprint" href="images/bdm/Decision%20Aid-06.png" data-toggle="lightbox">
+                                    <a href="images/bdm/Decision%20Aid-06.png" data-toggle="lightbox">
                                         <img class="thumbnail img-fluid" src="images/bdm/Decision%20Aid-06.png">
                                     </a>
                             </div>
@@ -674,6 +674,7 @@ to fifty high-potential, underserved students for 6 weeks. Modified and develope
 			</div>
 		</div>
 	</div>
+
 </div>
 
 		<!-- section end -->
@@ -721,5 +722,54 @@ to fifty high-potential, underserved students for 6 weeks. Modified and develope
 
 		<!-- Custom Scripts -->
 		<script type="text/javascript" src="js/custom.js"></script>
+         <script type="text/javascript">
+            $(document).ready(function ($) {
+                // delegate calls to data-toggle="lightbox"
+                $(document).on('click', '[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', function(event) {
+                    event.preventDefault();
+                    return $(this).ekkoLightbox({
+                        onShown: function() {
+                            if (window.console) {
+                                return console.log('Checking our the events huh?');
+                            }
+                        },
+						onNavigate: function(direction, itemIndex) {
+                            if (window.console) {
+                                return console.log('Navigating '+direction+'. Current item: '+itemIndex);
+                            }
+						}
+                    });
+                });
+
+                //Programmatically call
+                $('#open-image').click(function (e) {
+                    e.preventDefault();
+                    $(this).ekkoLightbox();
+                });
+                $('#open-youtube').click(function (e) {
+                    e.preventDefault();
+                    $(this).ekkoLightbox();
+                });
+
+				// navigateTo
+                $(document).on('click', '[data-toggle="lightbox"][data-gallery="navigateTo"]', function(event) {
+                    event.preventDefault();
+
+                    return $(this).ekkoLightbox({
+                        onShown: function() {
+
+							this.modal().on('click', '.modal-footer a', function(e) {
+
+								e.preventDefault();
+								this.navigateTo(2);
+
+                            }.bind(this));
+
+                        }
+                    });
+                });
+
+            });
+        </script>
 	</body>
 </html>
