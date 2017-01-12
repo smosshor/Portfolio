@@ -133,7 +133,7 @@ blockquote {
 }
 .banner-image {
 	vertical-align: middle;
-	min-height: 100%;
+	min-height: 50%;
 	width: 100%;
 }
 .banner:after {
