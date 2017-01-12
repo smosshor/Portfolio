@@ -462,7 +462,7 @@ textarea {
 /* Navigations
 ----------------------------------------------------------------------------- */
 .header .navbar {
-	margin-bottom: 40;
+	margin-bottom: 10;
 }
 .main-navigation .navbar-default {
 	background-color: transparent;
@@ -470,7 +470,7 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li > a {
 	color: #fff;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	font-size: 18px;
 	font-weight: 300;
 }
