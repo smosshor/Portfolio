@@ -461,7 +461,7 @@ textarea {
 /* Navigations
 ----------------------------------------------------------------------------- */
 .header .navbar {
-	margin-bottom: 10;
+	margin-bottom: 40;
 }
 .main-navigation .navbar-default {
 	background-color: transparent;
@@ -503,7 +503,6 @@ textarea {
 }
 @media (max-width:767px) {
 	.header.navbar-fixed-top {
-		position: relative;
 	}
 }
 
