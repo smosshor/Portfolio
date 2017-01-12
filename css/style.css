@@ -461,7 +461,7 @@ textarea {
 /* Navigations
 ----------------------------------------------------------------------------- */
 .header .navbar {
-	margin-bottom: 0;
+	margin-bottom: 10;
 }
 .main-navigation .navbar-default {
 	background-color: transparent;
