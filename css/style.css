@@ -117,7 +117,6 @@ blockquote {
 ----------------------------------------------------------------------------- */
 .header {
 	color: #ffffff;
-	background-color: rgba(24, 124, 127, .5);
 	padding: 10px 0;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -469,7 +468,7 @@ textarea {
 	border: none;
 }
 .main-navigation .navbar-default .navbar-nav > li > a {
-	color: #fff;
+	color: #363d3d;
 	padding: 10px 10px;
 	font-size: 18px;
 	font-weight: 300;
@@ -562,7 +561,7 @@ textarea {
 	transition: all 0.3s ease-in-out;
 }
 .site-name a {
-	color: #ffffff;
+	color: #363d3d;
 }
 .site-name a:hover {
 	text-decoration: none;
