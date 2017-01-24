@@ -313,7 +313,7 @@ blockquote {
 }
 .btn-default {
 	color: #96ebdf;
-	border: 1px solid #cccccc;
+	border: 0px solid #cccccc;
 }
 .btn-default:hover {
 	color: #ffffff;
@@ -388,8 +388,8 @@ x	background-color: #333333;
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {
-	background-color: #187C7F;
-	border-color: #187C7F;
+	background-color: #96EBDF;
+	border-color: #96EBDF;
 	color: #ffffff;
 }
 .nav-pills > li > a {
@@ -428,15 +428,15 @@ textarea {
 	border-radius: 0px;
 }
 .modal-{
-	background-color: #187C7F;
-	color: #187C7F;
+	background-color: #96EBDF;
+	color: #96EBDF;
 }
 .modal-h4 {
-	color: #187C7F;
+	color: #96EBDF;
 }
 .modal-header .close {
 	font-weight: 300;
-	color: #187C7F;
+	color: #96EBDF;
 	text-shadow: none;
 	filter: alpha(opacity=100);
 	opacity: 1;
