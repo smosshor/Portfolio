@@ -678,7 +678,7 @@ textarea {
 	bottom: -1px;
 	left: 0;
 	right: -1px;
-	background-color: rgb(24, 124, 127);
+	background-color: rgba(24, 124, 127, .5);
 	cursor: pointer;
 	overflow: hidden;
 	opacity: 0;
