@@ -729,6 +729,7 @@ textarea {
 .info-card {
     float: left;
 	margin: 10px;
+    display: inline-block;
 	-webkit-perspective: 600px;
 }
 
@@ -736,6 +737,7 @@ textarea {
 	background: #FFF;
 	border-radius: 10px;
 	transition: -webkit-transform 1s;
+    display: inline-block;
 	-webkit-transform-style: preserve-3d;
 	-webkit-backface-visibility: hidden;
 	border: 1px solid black;
@@ -754,15 +756,18 @@ textarea {
 	padding-top: 0px;
 	width: 250px;
 	height: 330px;
+    display: inline-block;
 	-webkit-transform: rotateY(-180deg);
 	overflow: scroll;
 }
 
 .info-card:hover .back {
+    display: inline-block;
 	-webkit-transform: rotateY(0);
 }
 
 .info-card:hover .front {
+    display: inline-block;
 	-webkit-transform: rotateY(180deg);
 }
 
