@@ -735,7 +735,7 @@ textarea {
 
 .front, .back {
 	background: #FFF;
-	border-radius: 10px;
+	border-radius: 0px;
 	transition: -webkit-transform 1s;
     display: inline-block;
 	-webkit-transform-style: preserve-3d;
