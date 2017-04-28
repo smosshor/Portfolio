@@ -758,7 +758,6 @@ textarea {
 	height: 330px;
     display: inline-block;
 	-webkit-transform: rotateY(-180deg);
-	overflow: scroll;
 }
 
 .info-card:hover .back {
