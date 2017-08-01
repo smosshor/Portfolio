@@ -1,0 +1,121 @@
+h1, h2, h3, h4, h5 {
+font-weight: 100;
+font-family: Raleway;
+color:#000
+}
+
+h1 {
+font-size: 40px;
+font-family: Raleway;
+text-align: center;
+font-weight: 300;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+h2 {
+font-size: 32px;
+}
+
+h3 {
+font-size: 24px;
+}
+
+h4 {
+font-size: 16px;
+font-weight:300; 
+}
+
+h5 {
+font-size: 14px;
+}
+
+nav {
+    background-color: lightgrey;
+}
+nav .nav-wrapper {
+    height:800px;
+    background-color:cornflowerblue;
+    background-size: cover;
+    color:#fff;
+    background-attachment: fixed;
+    transition: all .5s;
+    z-index: 933333333;
+}
+nav .nav-wrapper.shrink {
+  height: 100px;
+  color:#fff;
+  background: #263238;
+}
+
+nav .brand-logo {
+    display: none;
+}
+nav .brand-logo.shrink {
+    position: absolute;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 20px;
+    white-space: nowrap;
+    font-weight: 200;
+}
+
+nav .nav-wrapper .tagline {
+    padding-top: 150px;
+    text-align: center;
+}
+nav .nav-wrapper.shrink .tagline{
+    display:none;
+}
+
+nav ul a{
+    display:none;
+}
+nav ul a.shrink{
+    display:grid;
+}
+
+a {
+    color:cornflowerblue;
+}
+
+nav ul a {
+    color: #fff;
+    padding:20px;
+}
+
+col s7 push-s5 img{
+    width:50%;
+}
+
+
+#introSection {
+        display: -webkit-box;
+}
+.introThing {
+    text-align: center;
+    width: 33%;
+    height: 800px;
+    padding:20px;
+    background: #eaeaea;
+    border: white solid 1px;
+}
+.introThing h1{
+    padding-top: 200px;
+}
+
+#portfolioSection {
+    display: -webkit-box;
+}
+
+.portfolioItem{
+    text-align: center;
+    width: 49%;
+    height: 600px;
+    padding:20px;
+    background: #000;
+    border: white solid 1px;
+}
+.portfolioItem img{
+    padding-top: 100px;
+}
