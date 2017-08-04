@@ -34,17 +34,15 @@ nav {
     background-color: lightgrey;
 }
 nav .nav-wrapper {
-    height:800px;
     background-color:cornflowerblue;
     background-size: cover;
     color:#fff;
-    background-attachment: fixed;
     transition: all .5s;
     z-index: 933333333;
 }
 nav .nav-wrapper.shrink {
   height: 100px;
-  color:#fff;
+  color:cornflowerblue;
   background: #263238;
 }
 
@@ -67,6 +65,11 @@ nav .nav-wrapper .tagline {
 nav .nav-wrapper.shrink .tagline{
     display:none;
 }
+a#projects.shrink{
+    align-content: center;
+    font-size:50px;
+}
+
 
 nav ul a{
     display:none;
@@ -79,8 +82,8 @@ a {
     color:cornflowerblue;
 }
 
-nav ul a {
-    color: #fff;
+nav a {
+    color: cornflowerblue;
     padding:20px;
 }
 
@@ -118,4 +121,121 @@ col s7 push-s5 img{
 }
 .portfolioItem img{
     padding-top: 100px;
+}
+
+#item1 {
+}
+
+#item2 {
+}
+#item2::before,#item2::after  {
+}
+.asymmetricA {
+	position: relative;
+  margin-top:50px;
+}
+
+.asymmetricA::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #7CCBF2;
+	transform-origin: top left;
+	transform: skewY(2deg);
+	z-index: -10;
+}
+
+.asymmetricA::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #7CCBF2;
+	transform-origin: bottom left;
+	transform: skewY(-2deg);
+	z-index: -10;
+}
+
+.asymmetricB {
+	position: relative;
+	background-color: #000;
+    color:#fff;
+    margin-top:50px;
+
+}
+
+.asymmetricB::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	transform-origin: top right;
+	transform: skewY(-2deg);
+	z-index: -10;
+}
+
+.asymmetricB::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	transform-origin: bottom right;
+	transform: skewY(2deg);
+	z-index: -10;
+}
+
+
+body {
+	margin: 0 auto;
+	background-color: #EEEEEE;
+	font-family: sans-serif;
+}
+
+section {
+	padding: 100px 0;
+}
+
+h2 {
+    padding-top: 110px;
+	padding-bottom: 100px;
+	text-align: center;
+	text-transform: uppercase;
+    font-weight: 600;
+}
+
+p {
+	width: 70%;
+	margin: 0 auto;
+	line-height: 2;
+	font-size: 18px;
+}
+
+#item1, #item1::before, #item1::after {
+    background:antiquewhite;
+}
+#item2, #item2::before, #item2::after {
+    background: lightblue;
+}
+#item3, #item3::before, #item3::after {
+    background: lightgreen;
+}
+
+#section1 {
+    display:none;
+}
+#buttonDropDown {
+    width:100%;
+    text-align: center;
+}
 }

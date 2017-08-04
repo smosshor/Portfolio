@@ -1,23 +1,34 @@
-/* Theme Name: Worthy - Free Powerful Theme by HtmlCoder
- * Author:HtmlCoder
- * Author URI:http://www.htmlcoder.me
- * Version:1.0.0
- * Created:November 2014
- * License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
- * File Description: Place here your custom scripts
- */
-$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 200) {
+    $('navbar-fixed-top').addClass('shrink');
+  } else {
+    $('nav .nav-wrapper').removeClass('shrink');
+  }
 });
 
-$(this).ekkoLightbox({
-    alwaysShowClose: true,
-    onShown: function() {
-        console.log('Checking our the events huh?');
-    },
-    onNavigate: function(direction, itemIndex)
-        console.log('Navigating '+direction+'. Current item: '+itemIndex);
-    }
-    ...
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 200) {
+    $('navbar-fixed-top .brand-logo').addClass('shrink');
+  } else {
+    $('nav .brand-logo').removeClass('shrink');
+  }
 });
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 200) {
+    $('nav ul a').addClass('shrink');
+  } else {
+    $('nav ul a').removeClass('shrink');
+  }
+});
+
+
+
+$( document ).ready(function() {
+    
+$("#buttonDropDown").click(function(){
+    $("#section1").toggle();
+});
+});
+
+
