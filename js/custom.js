@@ -16,4 +16,14 @@ $.fn.extend({
     }
 });
 
-$('#col-md-4').animateCss('fadeIn');
+$('.col-md-4').animateCss('fadeInRight');
+//$('.col-md-12').animateCss('fadeInLeft');
+$('.container-fluid').animateCss('bounceIn');
+
+
+$('#portfolio-item-title').animateCss('bounceIn');
+$('#portfolio-item-title').addClass("wow");
+
+$('#portfolio-item-section').animateCss('bounceIn');
+$('#portfolio-item-section').addClass("wow");
+
