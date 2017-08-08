@@ -86,9 +86,17 @@ margin-top:25%;
 #portfolio-item-top{
     text-align:left;
     color:#fff;
-    padding-bottom: 300px;
+    background-size:cover;
+    height:600px;
+}
+
+#portfolio-item-image{
+    background-size:cover !important;
+    height:600px;
 
 }
+
+
 
 #portfolio-item-title {
     text-align: center;
