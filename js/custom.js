@@ -16,8 +16,10 @@ $.fn.extend({
     }
 });
 
-$('.col-md-4').animateCss('fadeInRight');
-$('.col-md-12').animateCss('fadeInLeft');
+$('.col-md-4').animateCss('fadeIn');
+$('.col-md-8').animateCss('fadeIn');
+
+$('.col-md-12').animateCss('fadeIn');
 $('.container-fluid').animateCss('bounceIn');
 
 
