@@ -79,7 +79,7 @@ navbar fixed-top.shrink {
 #portfolio-text h3{
   color: white;
     text-align: center;
-margin-top:25%;
+    margin-top:25%;
     margin-left: 25%;    
 }
 
@@ -87,17 +87,17 @@ margin-top:25%;
     text-align:left;
     color:#fff;
     background-size:cover;
-    height:600px;
+    height:100vh;
 }
 
 #portfolio-item-image{
     background-size:cover !important;
     height:600px;
-
 }
 
-
-
+#portfolio-item-image img {
+    width:110%;
+}
 #portfolio-item-title {
     text-align: center;
     margin-top: 50px;
