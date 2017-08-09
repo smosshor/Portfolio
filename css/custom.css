@@ -25,7 +25,9 @@ i {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-
+b {
+    font-weight:800;
+}
 
 /* navbar */
 
@@ -104,13 +106,13 @@ navbar fixed-top.shrink {
 
 #portfolio-item-title {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    padding: 100px;
 }
 
 #portfolio-item-section{
-   text-align:center;
-   height:400px;
-   background-size: cover !important;
+    text-align: center;
+    height: 400px;
+    border: white 4px solid;
+    background-size: cover !important;
 }
 
