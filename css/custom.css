@@ -50,6 +50,18 @@ navbar fixed-top.shrink {
     color: #fff;
 }
 
+/* buttons */
+
+.btn{
+    background: none;
+    color:#fff;
+    border:#fff solid;
+    font-weight: 200;
+}
+.btn:hover{
+    color:#fff;
+    font-weight: 800;
+}
 
 
 /* portfolio items */
@@ -90,6 +102,7 @@ navbar fixed-top.shrink {
     color:#fff;
     background-size:cover;
     height:100vh;
+    border-bottom: #fff 10px solid;
 }
 #portfolio-item-image{    
     height:600px;
