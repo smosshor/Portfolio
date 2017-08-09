@@ -16,16 +16,12 @@ $.fn.extend({
     }
 });
 
-$('.col-md-4').animateCss('fadeIn');
-$('.col-md-8').animateCss('fadeIn');
-
-$('.col-md-12').animateCss('fadeIn');
-$('.container-fluid').animateCss('bounceIn');
+AOS.init({
+  duration: 1200,
+})
 
 
-$('#portfolio-item-title').animateCss('bounceIn');
-$('#portfolio-item-title').addClass("wow");
+$('.col-md-4').data-aos('fade-up');
+$('.col-md-8').data-aos('fade-up');
 
-$('#portfolio-item-section').animateCss('bounceIn');
-$('#portfolio-item-section').addClass(".wow");
-
+$('.col-md-12').data-aos('fade-up');
