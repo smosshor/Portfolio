@@ -89,8 +89,6 @@ navbar fixed-top.shrink {
     background-size:cover;
     height:100vh;
 }
-
-<<<<<<< HEAD
 #portfolio-item-image{
     background-size:cover !important;
     height:600px;
@@ -99,13 +97,7 @@ navbar fixed-top.shrink {
 #portfolio-item-image img {
     width:110%;
 }
-=======
-#portfolio-item-image img{
-    width:110%;
-    
-}
 
->>>>>>> c9356b97ec3abddc58643002768d618537c0f247
 #portfolio-item-title {
     text-align: center;
     margin-top: 50px;

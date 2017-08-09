@@ -1,3 +1,6 @@
+jQuery( document ).ready(function( $ ) {
+
+
 $(window).scroll(function() {
   if ($(document).scrollTop() > 100) {
     $('.navbar-fixed-top').addClass('shrink');
@@ -19,9 +22,8 @@ $.fn.extend({
 AOS.init({
   duration: 1200,
 })
-
-
-$('.col-md-4').data-aos('fade-up');
-$('.col-md-8').data-aos('fade-up');
-
-$('.col-md-12').data-aos('fade-up');
+$('.col-md-4').AOS('fade-up');
+$('.col-md-8').AOS('fade-up');
+$('.col-md-12').AOS('fade-up');
+    
+    });
