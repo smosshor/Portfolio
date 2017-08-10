@@ -13,7 +13,6 @@ h1 {
     font-weight:700;
     padding-top:40px;
     padding-bottom: 20px;
-    border-bottom: azure solid 5px;
 }
 
 
@@ -25,31 +24,48 @@ i {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 b {
     font-weight:800;
 }
 
+
+body {
+  position: relative;
+}
+
 /* navbar */
 
-navbar fixed-top {
-    background:grey;
+.fixed-top {
+    background:#f0f0f0;
+    height: 100vh;
 }
-navbar fixed-top.shrink {
-    height: 200px;
+
+.fixed-top.shrink {
+    height: 100px;
     background: white;
+    transition: 1s;
+    box-shadow: 1px 1px 2px #888888;
 }
 
 .navbar-default {
     background: none;
     border: none;
-    height:800px;
     display:block;
 }
 
 .navbar-default .navbar-nav > li > a {
     color: #fff;
 }
-
+.navbar-nav.mr-auto{
+   opacity:0;
+}
+.navbar-nav.mr-auto.shrink{
+   opacity: 1;
+}
 /* buttons */
 
 .btn{
@@ -67,7 +83,8 @@ navbar fixed-top.shrink {
 /* portfolio items */
 
 #portfolio-item {
-    height:600px;
+    width:100%;
+    height:300px;
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -127,5 +144,9 @@ navbar fixed-top.shrink {
     height: 400px;
     border: white 4px solid;
     background-size: cover !important;
+}
+
+#workMe {
+    margin-top:100px;
 }
 
