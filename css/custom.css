@@ -187,3 +187,15 @@ body {
     height: 400px;
     background-size: cover !important;
 }
+#portfolio-item-sticky.shrink {
+    height:100px;
+}
+#portfolio-item-sticky.shrink img {
+    display: none;
+}
+#portfolio-item-sticky.shrink p {
+    display: none;
+}
+#portfolio-item-sticky.shrink i {
+    display: none;
+}
