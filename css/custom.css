@@ -57,6 +57,7 @@ h1 {
 p {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
+    color: #fff;
 }
 i {
     font-family: 'Source Sans Pro', sans-serif;
@@ -65,8 +66,7 @@ i {
 
 a {
     font-family: 'Source Sans Pro', sans-serif;
-        color: #fff;
-
+    color: #fff;
 }
 
 b {
@@ -78,20 +78,20 @@ body {
   position: relative;
 }
 
-/* navbar */
+/* navbar HOME*/
 
-.fixed-top {
+.fixed-top.home {
     background:#0A0A0A;
     height: 100vh;
 }
 
-.fixed-top.shrink {
+.fixed-top.home.shrink {
     height: 100px;
     background: white;
     transition: 1s;
     box-shadow: 1px 1px 2px #888888;
 }
-.fixed-top.shrink svg{
+.fixed-top.home.shrink svg{
    display:none;
 }
 
