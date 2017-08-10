@@ -1,18 +1,56 @@
+body {
+  background:#000;
+}
+
+/* SVG logo animation */
+svg {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left: 40%;
+  width:20%;
+  fill:none;
+  stroke:none;
+}
+
+svg path  {
+  stroke:white;
+  stroke-width:3px;
+  stroke-dasharray:800;
+  stroke-offset:800;
+  opacity:0;
+  animation: 4s letter-outline forwards;
+}
+
+@keyframes letter-outline {
+  from {
+   stroke-dashoffset:800;
+    opacity:0;
+  }
+  to {
+    stroke-dashoffset:0;
+    opacity:1;
+  }
+}
+
+
+
+/* custom fonts and styles */
 row {
     display: -webkit-box !important;
 }
-
-/* custom fonts and styles */
 
 h1, h2, h3, h4, h5 {
     font-family: 'Raleway';
     padding-top: 30px;
     padding-bottom: 10px;
+    color:#fff;
 }
 h1 {
     font-weight:700;
     padding-top:40px;
     padding-bottom: 20px;
+    color:#fff;
 }
 
 
@@ -22,10 +60,13 @@ p {
 }
 i {
     font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
 }
 
 a {
     font-family: 'Source Sans Pro', sans-serif;
+        color: #fff;
+
 }
 
 b {
@@ -40,7 +81,7 @@ body {
 /* navbar */
 
 .fixed-top {
-    background:#f0f0f0;
+    background:#0A0A0A;
     height: 100vh;
 }
 
@@ -49,6 +90,9 @@ body {
     background: white;
     transition: 1s;
     box-shadow: 1px 1px 2px #888888;
+}
+.fixed-top.shrink svg{
+   display:none;
 }
 
 .navbar-default {
@@ -119,7 +163,6 @@ body {
     color:#fff;
     background-size:cover;
     height:100vh;
-    border-bottom: #fff 10px solid;
 }
 #portfolio-item-image{    
     height:600px;
@@ -142,12 +185,5 @@ body {
 #portfolio-item-section{
     text-align: center;
     height: 400px;
-    border: white 4px solid;
     background-size: cover !important;
 }
-
-#workMe {
-    color:white;
-    background: grey;
-}
-
