@@ -2,6 +2,10 @@ body {
   background:#000;
 }
 
+animalBG {
+    background:#303F9F;
+}
+
 /* SVG logo animation */
 svg {
   position:absolute;
@@ -33,6 +37,10 @@ svg path  {
   }
 }
 
+.fixed-top {
+    z-index: 2000;
+    transition: 1s;
+}
 
 
 /* custom fonts and styles */
@@ -124,7 +132,7 @@ body {
 }
 
 
-/* portfolio items */
+/* Home Page Portfolio Items */
 
 #portfolio-item {
     width:100%;
@@ -162,7 +170,6 @@ body {
     text-align:left;
     color:#fff;
     background-size:cover;
-    height:100vh;
 }
 #portfolio-item-image{    
     height:600px;
@@ -171,7 +178,6 @@ body {
     background-repeat: no-repeat;
     background-position: 30%;
 }
-
 
 #portfolio-item-image img {
     width:110%;
@@ -187,15 +193,50 @@ body {
     height: 400px;
     background-size: cover !important;
 }
-#portfolio-item-sticky.shrink {
+
+
+/* Page Specific CSS*/
+#page-portfolio-item-info {
+    position: absolute;
+    background: #fff;
+    width: 400px;
+    height: 300px;
+    color: #303f9f;
+    transform-style: preserve-3d;
+    margin-top: 200px;
+    margin-left: 100px;
+    z-index: 600;
+    opacity: .9;
+    padding: 50px;
+}
+#page-portfolio-item-info h3{
+    color: #303f9f;
+}
+#page-portfolio-item-info p{
+    color: #303f9f;
+}
+
+
+#page-portfolio-item-section{
+    text-align: center;
+    height: 400px;
+    background-size: cover !important;
+    background-attachment:fixed;
+}
+
+#page-portfolio-item-sticky{
+    z-index:800;
+    height:100vh;
+}
+#page-portfolio-item-sticky.shrink {
     height:100px;
 }
-#portfolio-item-sticky.shrink img {
+#page-portfolio-item-sticky.shrink img {
     display: none;
 }
-#portfolio-item-sticky.shrink p {
+#page-portfolio-item-sticky.shrink p {
     display: none;
 }
-#portfolio-item-sticky.shrink i {
+#page-portfolio-item-sticky.shrink i {
     display: none;
 }
