@@ -8,9 +8,11 @@ animalBG {
 
 /* SVG logo animation */
 svg {
-  position:relative;
+  position:absolute;
+  top:0;
   bottom:0;
-  width:50%;
+  left: 40%;
+  width:20%;
   fill:none;
   stroke:none;
 }
@@ -63,6 +65,7 @@ h1 {
 p {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
+    color: #fff;
 }
 i {
     font-family: 'Source Sans Pro', sans-serif;
@@ -71,8 +74,7 @@ i {
 
 a {
     font-family: 'Source Sans Pro', sans-serif;
-        color: #fff;
-
+    color: #fff;
 }
 
 b {
@@ -84,20 +86,20 @@ body {
   position: relative;
 }
 
-/* navbar */
+/* navbar HOME*/
 
-.fixed-top {
+.fixed-top.home {
     background:#0A0A0A;
     height: 100vh;
 }
 
-.fixed-top.shrink {
+.fixed-top.home.shrink {
     height: 100px;
     background: white;
     transition: 1s;
     box-shadow: 1px 1px 2px #888888;
 }
-.fixed-top.shrink svg{
+.fixed-top.home.shrink svg{
    display:none;
 }
 
@@ -191,7 +193,6 @@ body {
     height: 400px;
     background-size: cover !important;
 }
-<<<<<<< HEAD
 
 
 /* Page Specific CSS*/
@@ -199,7 +200,7 @@ body {
     position: absolute;
     background: #fff;
     width: 400px;
-    height: 400px;
+    height: 300px;
     color: #303f9f;
     transform-style: preserve-3d;
     margin-top: 200px;
@@ -208,16 +209,11 @@ body {
     opacity: .9;
     padding: 50px;
 }
-
-
-#page-portfolio-item-insights h3,#page-portfolio-item-insights p,#page-portfolio-item-insights i, #page-portfolio-item-insights h4 {
+#page-portfolio-item-info h3{
     color: #303f9f;
 }
-
-
-#page-portfolio-item-info h3, #page-portfolio-item-info p, #page-portfolio-item-info i, #page-portfolio-item-info h5,  #page-portfolio-item-info li{
+#page-portfolio-item-info p{
     color: #303f9f;
-    text-align: left;
 }
 
 
