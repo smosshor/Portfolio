@@ -63,7 +63,6 @@ h1 {
 p {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
-    color: #fff;
 }
 i {
     font-family: 'Source Sans Pro', sans-serif;
@@ -72,7 +71,8 @@ i {
 
 a {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #fff;
+        color: #fff;
+
 }
 
 b {
@@ -84,20 +84,20 @@ body {
   position: relative;
 }
 
-/* navbar HOME*/
+/* navbar */
 
-.fixed-top.home {
+.fixed-top {
     background:#0A0A0A;
     height: 100vh;
 }
 
-.fixed-top.home.shrink {
+.fixed-top.shrink {
     height: 100px;
     background: white;
     transition: 1s;
     box-shadow: 1px 1px 2px #888888;
 }
-.fixed-top.home.shrink svg{
+.fixed-top.shrink svg{
    display:none;
 }
 
@@ -191,6 +191,7 @@ body {
     height: 400px;
     background-size: cover !important;
 }
+<<<<<<< HEAD
 
 
 /* Page Specific CSS*/
@@ -243,3 +244,5 @@ body {
 #page-portfolio-item-sticky.shrink i {
     display: none;
 }
+=======
+>>>>>>> parent of 2a0f48d... e
