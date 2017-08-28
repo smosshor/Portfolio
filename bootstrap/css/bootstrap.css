@@ -760,6 +760,7 @@ pre code {
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 576px) {
