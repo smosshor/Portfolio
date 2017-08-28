@@ -16,9 +16,5 @@ $(window).scroll(function() {
     $('.navbar-nav.mr-auto').removeClass('shrink');
   }
 });   
-<<<<<<< HEAD
-=======
-   
->>>>>>> parent of 2a0f48d... e
 
 });
