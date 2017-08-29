@@ -16,6 +16,7 @@ svg {
   fill:none;
   stroke:none;
   margin-left: 27%;
+  margin-top: -5%;
 }
 
 svg path  {
@@ -87,7 +88,7 @@ body {
 /* navbar HOME*/
 
 .fixed-top.home {
-    background-image:url('/Users/Sarah/smosshor.github.io/ASSETS/backgrounds/93-01.png');
+    background-image:url('/Users/Sarah/smosshor.github.io/ASSETS/backgrounds/93-01-01.png');
     height: 100vh;
     background-size:cover;
     background-repeat: no-repeat;
