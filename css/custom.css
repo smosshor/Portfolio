@@ -1,5 +1,7 @@
 body {
-  background:#FFF;
+  background:#fff;
+  background: url('/Users/Sarah/smosshor.github.io/ASSETS/backgrounds/doodles.png');
+    background-attachment: fixed;
 }
 
 animalBG {
@@ -85,8 +87,12 @@ body {
 /* navbar HOME*/
 
 .fixed-top.home {
-    background:url('file:///Users/Sarah/Downloads/105004526557ff78382239a/uploads/6/6/7/6/66767701/_4979297.jpg');
+    background-image:url('/Users/Sarah/smosshor.github.io/ASSETS/backgrounds/93-01.png');
     height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
 }
 
 .fixed-top.home.shrink {
