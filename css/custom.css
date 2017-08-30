@@ -21,16 +21,16 @@ svg {
 
 svg path  {
   stroke:white;
-  stroke-width:3px;
-  stroke-dasharray:800;
-  stroke-offset:800;
+  stroke-width:15px;
+  stroke-dasharray:600;
+  stroke-offset:600;
   opacity:0;
   animation: 4s letter-outline forwards;
 }
 
 @keyframes letter-outline {
   from {
-   stroke-dashoffset:800;
+   stroke-dashoffset:400;
     opacity:0;
   }
   to {
@@ -88,7 +88,13 @@ body {
 /* navbar HOME*/
 
 .fixed-top.home {
-    background-image:url('/Users/Sarah/smosshor.github.io/ASSETS/backgrounds/93-01-01.png');
+    background: rgba(82,255,197,1);
+background: -moz-linear-gradient(left, rgba(82,255,197,1) 0%, rgba(41,255,237,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(82,255,197,1)), color-stop(100%, rgba(41,255,237,1)));
+background: -webkit-linear-gradient(left, rgba(82,255,197,1) 0%, rgba(41,255,237,1) 100%);
+background: -o-linear-gradient(left, rgba(82,255,197,1) 0%, rgba(41,255,237,1) 100%);
+background: -ms-linear-gradient(left, rgba(82,255,197,1) 0%, rgba(41,255,237,1) 100%);
+background: linear-gradient(to right, rgba(82,255,197,1) 0%, rgba(41,255,237,1) 100%);
     height: 100vh;
     background-size:cover;
     background-repeat: no-repeat;
