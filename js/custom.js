@@ -4,7 +4,7 @@ jQuery( document ).ready(function( $ ) {
 // Wait for window load
 $(window).load(function() {
     // Animate loader off screen
-    $(".page-load").fadeOut("slow");;
+    $(".load-page").fadeOut("slow");;
 });
     
 $(window).scroll(function() {
