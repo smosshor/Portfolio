@@ -117,9 +117,7 @@ body {
 
 .fixed-top.home.shrink {
     height: 100px;
-    background: white;
     transition: 1s;
-    box-shadow: 1px 1px 2px #888888;
     border-radius: 0px 0px 150px 150px;
 
 }
