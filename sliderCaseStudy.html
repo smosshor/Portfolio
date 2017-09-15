@@ -218,6 +218,7 @@ disheartening.</p>
 		<!-- JavaScript files placed at the end of the document so the pages load faster
 		================================================== -->
 		<!-- Jquery and Bootstap core js files -->
+	
 		<script type="text/javascript" src="plugins/jquery.min.js"></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
@@ -225,6 +226,14 @@ disheartening.</p>
 		<script type="text/javascript" src="js/custom.js"></script>
         <script src="plugins/popper.js"></script>
         <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        
+        <script language="JavaScript" type="text/javascript">
+            $(document).ready(function(){
+                $('.carousel').carousel({
+                    interval: 2000
+                                 })
+                        });    
+         </script>
         <!-- AOS animation on scroll -->
 
          <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>

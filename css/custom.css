@@ -72,6 +72,7 @@ h1 {
     padding-top:40px;
     padding-bottom: 20px;
     color:#000;
+    text-align: center;
 }
 
 
@@ -94,8 +95,9 @@ a {
 b {
     font-weight:800;
 }
-.fa-4x {
-    color:#000;
+.fa-2x {
+    color:#fff;
+    padding-right:10px;
 }
 .fa-stack-1x, .fa-stack-2x{
     background:background: #FF5F6D;  /* fallback for old browsers */
@@ -145,6 +147,10 @@ body {
 }
 .navbar-nav.mr-auto.shrink{
    opacity: 1;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
 }
 /* buttons */
 
