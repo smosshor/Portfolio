@@ -111,13 +111,10 @@ body {
 /* navbar HOME*/
 
 .fixed-top.home {
-    background: rgba(82,255,197,1);
-    background: -moz-linear-gradient(left, rgba(82,255,197,1) 0%, rgba(41,255,237,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(82,255,197,1)), color-stop(100%, rgba(41,255,237,1)));
-    background: -webkit-linear-gradient(left, rgba(82,255,197,1) 0%, rgba(41,255,237,1) 100%);
-    background: -o-linear-gradient(left, rgba(82,255,197,1) 0%, rgba(41,255,237,1) 100%);
-    background: -ms-linear-gradient(left, rgba(82,255,197,1) 0%, rgba(41,255,237,1) 100%);
-    background: linear-gradient(to right, rgba(82,255,197,1) 0%, rgba(41,255,237,1) 100%);
+   background: #396afc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     height: 100vh;
     background-size:cover;
     background-repeat: no-repeat;
