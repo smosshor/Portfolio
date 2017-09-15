@@ -127,7 +127,6 @@ body {
     height: 100px;
     transition: 1s;
     /*border-radius: 0px 0px 150px 150px;*/
-
 }
 .fixed-top.home.shrink svg{
    display:none;
