@@ -1,0 +1,81 @@
+Copy for my portfolio (September 17, 2017)
+Main Page 
+Blurbs 
+EatSleepPoop: The Eat Sleep Poop Appÿhelps parents log important information about their newborn babies. I recently joined the team to redesign the UX based on user insights and testing.
+Animal Cop: Animal Cop is a digital reporting system for concerned citizens and a management application for Humane Officers, created for the Pittsburgh Humane Animal Rescue shelter using a user-centered design process to create a solution that simplifies the animal abuse reporting and investigation process.
+Yemen Water Dashboard
+Copy Needed  
+
+learnfolio
+Copy Needed  
+
+Afterhours
+Copy Needed  
+About me 
+I'm a digital designer, developer and researcher currently working withÿCrowdRise, part of the ÿGoFundMeÿfamily. I get to make things work for awesome non-profit organizations from the Red Cross to American Cancer Society to your local non-profit animal shelters. I'm always looking for to connect with people working on interesting projects that help people to more good.ÿ
+
+Animal Cop
+Overview (what, who, why, how)
+Animal Cop is a digital reporting system for concerned citizens and a management application for Humane Officers, created for the Pittsburgh Humane Animal Rescue shelter using a user-centered design process to create a solution that simplifies the animal abuse reporting and investigation process.
+Team Animal Cop included (names). I acted as the product manager throughout this project, keeping our group rolling over the course of the semester long assignment, as well as playing a key role in building out the front-end development of the final interactive prototype. 
+Initial Research
+
+Insights
+Ideation/ prototyping
+Insights
+Final product details
+Reflections
+Team Animal Cop worked hard to create a fully-functional MVP to deliver to our non-profit clients, because we wanted to create something that they could make use of as soon as possible. Additionally, we created documentation of both our process and technical documentation of the MVP in order to empower others to innovate upon what we began, which is available publically. While the solution is designed specifically for the Humane Society, we encourage others to consider adopting it, as an open source solution for other shelters and communities to utilize. 
+EatSleepPoop
+Overview (what, who, why, how)
+Eat Sleep Poop Appÿhelps parents log important information about their newborn babies, created a few years ago by recent parent, and UX researcher, Sergi Bosch. I?ve been working with the team since July to evaluate and redesign the UX and UI based on user insights, testing and analytics, and eventually designing for wearables. 
+Initial Research
+Before digging into the design, I needed to gain a deeper understanding of my users- parents of newborn babies up to 5 months old.  Luckily, there were a number of new parents at work, allowing me to conduct quick user interviews and user testing sessions to inform my own thinking.  Additionally, I conducted a heuristic evaluation of each interaction within the app, creating a map of user interactions and goals throughout the app. 
+Insights
+
+Ideation/ prototyping
+Insights
+Current State/ Next steps
+
+Yemen Water dashboard
+Overview (what, who, why, how)
+Initial Research
+Insights
+Ideation/ prototyping
+Insights
+Final product details
+Reflections
+Afterhours
+Overview (what, who, why, how)
+Initial Research
+Insights
+Ideation/ prototyping
+Insights
+Current State/ Next steps
+learnfolio
+Overview (what, who, why, how)
+Initial Research
+Insights
+Ideation/ prototyping
+Insights
+Current State/ Next steps
+
+Best Practices Online Learning
+Overview (what, who, why, how)
+Initial Research
+Insights
+Ideation/ prototyping
+Insights
+Current State/ Next steps
+
+CrowdRise Web Design and Branding/ Analytics
+Overview (what, who, why, how)
+Insights
+Ideation/ prototyping
+Insights
+Current State/ Next steps
+
+
+
+
+
