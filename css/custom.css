@@ -1,11 +1,19 @@
 body {
   background:#fff;
-  background: url('/Users/Sarah/smosshor.github.io/ASSETS/backgrounds/doodles.png');
-    background-attachment: fixed;
 }
 
 animalBG {
     background:#303F9F;
+}
+
+.fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+    z-index: 700;
 }
 
 /*pre-load animation*/
@@ -52,19 +60,13 @@ svg path  {
   }
 }
 
-.fixed-top {
-    z-index: 2000;
-    transition: 1s;
-}
-
-
 /* custom fonts and styles */
 
 h1, h2, h3, h4, h5 {
     font-family: 'Raleway';
     padding-top: 30px;
     padding-bottom: 10px;
-    color:#fff;
+    color:#000;
     line-height: 1.5;
 }
 h1 {
@@ -96,15 +98,17 @@ a {
 b {
     font-weight:800;
 }
+li{
+    color:white;
+}
 .fa-2x {
-    color:#fff;
+    color:#000;
     padding-right:10px;
 }
 .fa-stack-1x, .fa-stack-2x{
     background:background: #FF5F6D;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 }
 
 body {
@@ -113,44 +117,27 @@ body {
 
 /* navbar HOME*/
 
-.fixed-top.home {
-    background: #1A2980;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 100vh;
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-attachment: fixed;
-}
-
-.fixed-top.home.shrink {
+.navbar-fixed-top {
+    background:#ffffff;
     height: 100px;
+    color:black;
+     z-index: 2000;
     transition: 1s;
-    /*border-radius: 0px 0px 150px 150px;*/
-}
-.fixed-top.home.shrink svg{
-   display:none;
-}
-
-.navbar-default {
-    background: none;
-    border: none;
-    display:block;
 }
 
 .navbar-default .navbar-nav > li > a {
     color: #fff;
 }
-.navbar-nav.mr-auto{
-   opacity:0;
+
+.nav-item{
+    color:black;
 }
-.navbar-nav.mr-auto.shrink{
-   opacity: 1;
+.navbar-nav.mr-auto{
+   opacity:1;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: white;
+    color: black;
 }
 /* buttons */
 
@@ -164,7 +151,6 @@ body {
     color:#fff;
     font-weight: 800;
 }
-
 
 /* Home Page Portfolio Items */
 
@@ -221,8 +207,6 @@ body {
     text-align: center;
     padding-top: 100px;
 }
-
-
 /* Page Specific CSS*/
 #page-portfolio-item-info {
     position: absolute;
@@ -271,8 +255,6 @@ body {
 #page-portfolio-item-sticky.shrink i {
     display: none;
 }
-
-
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -437,12 +419,3 @@ body {
     opacity: 0;
 }
 
-.fa-stack {
-    position: relative;
-    display: inline-block;
-    width: 2em;
-    height: 2em;
-    line-height: 2em;
-    vertical-align: middle;
-    z-index: 700;
-}
