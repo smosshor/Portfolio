@@ -73,7 +73,7 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     color: #000;
-    font-size:14px;
+    font-size:18px;
 }
 i {
     font-family: 'Source Sans Pro', sans-serif;
@@ -145,15 +145,23 @@ body {
 
 /* buttons */
 
-.btn{
-    background: none;
-    color:#fff;
-    border:#fff solid;
+.btn {
     font-weight: 200;
+    font-size: 2.0em;   
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    border-color: white;
+    width:300px;
 }
-.btn:hover{
-    color:#fff;
-    font-weight: 800;
+
+.btn:hover {
+    color: #000;
+    background:white;
+    border-color: white;
+        box-shadow: 0 6px 29px 0px black;
+
 }
+
 
 /* Portfolio Page CSS*/
