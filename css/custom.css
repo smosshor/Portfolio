@@ -1,80 +1,103 @@
 body {
-  background:#fff;
+    background: #fff;
 }
+
 /*pre-load animation*/
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+
+.no-js #loader {
+    display: none;
+}
+
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
 .load-page {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url('/Users/Sarah/smosshor.github.io/Preloader_1.gif') center no-repeat #fff;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('/Users/Sarah/smosshor.github.io/Preloader_1.gif') center no-repeat #fff;
 }
 
 /* SVG logo animation */
+
 svg {
-  position:relative;
-  bottom:0;
-  width:50%;
-  fill:none;
-  stroke:none;
-  margin-left: 25%;
-  margin-top: -5%;
+    position: relative;
+    bottom: 0;
+    width: 50%;
+    fill: none;
+    stroke: none;
+    margin-left: 25%;
+    margin-top: -5%;
 }
 
-svg path  {
-  stroke:white;
-  stroke-width:15px;
-  stroke-dasharray:600;
-  stroke-offset:600;
-  opacity:0;
-  animation: 4s letter-outline forwards;
+svg path {
+    stroke: white;
+    stroke-width: 15px;
+    stroke-dasharray: 600;
+    stroke-offset: 600;
+    opacity: 0;
+    animation: 4s letter-outline forwards;
 }
 
 @keyframes letter-outline {
-  from {
-   stroke-dashoffset:800;
-    opacity:0;
-  }
-  to {
-    stroke-dashoffset:0;
-    opacity:1;
-  }
+    from {
+        stroke-dashoffset: 800;
+        opacity: 0;
+    }
+    to {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
 }
 
 /* basic fonts and styles */
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Raleway';
     padding-top: 30px;
     padding-bottom: 10px;
-    color:#000;
+    color: #000;
     line-height: 1.5;
 }
+
 h1 {
-    font-weight:700;
-    padding-top:40px;
+    font-weight: 700;
+    padding-top: 40px;
     padding-bottom: 20px;
-    color:#000;
+    color: #000;
     text-align: center;
 }
+
 h3 {
     font-size: 2.5em;
 }
+
 h4 {
     font-size: 1.5em;
     font-weight: bolder;
 }
 
-p,ol,li,ul {
+p,
+ol,
+li,
+ul {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     color: #000;
-    font-size:18px;
+    font-size: 18px;
 }
+
 i {
     font-family: 'Source Sans Pro', sans-serif;
     color: #000;
@@ -83,14 +106,14 @@ i {
 a {
     font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
-    font-weight:600;
+    font-weight: 600;
 }
 
 b {
-    font-weight:800;
+    font-weight: 800;
 }
 
-/*font awesome */ 
+/*font awesome */
 
 .fa-stack {
     position: relative;
@@ -100,28 +123,33 @@ b {
     line-height: 2em;
     vertical-align: middle;
     z-index: 700;
-} 
+}
 
 .fa-2x {
-    color:#000;
-    padding-right:10px;
+    color: #000;
+    padding-right: 10px;
 }
-.fa-stack-1x, .fa-stack-2x{
-    background:background: #FF5F6D;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+.fa-stack-1x,
+.fa-stack-2x {
+    background: background: #FF5F6D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC371, #FF5F6D);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 body {
-  position: relative;
+    position: relative;
 }
 
 /* navbar*/
 
-.navbar-fixed-top {
-    background:#ffffff;
+.navbar-default {
+    background: #ffffff;
     height: 100px;
-    color:black;
+    color: black;
     z-index: 2000;
 }
 
@@ -129,11 +157,12 @@ body {
     color: #fff;
 }
 
-.nav-item{
-    color:black;
+.nav-item {
+    color: black;
 }
-.navbar-nav.mr-auto{
-   opacity:1;
+
+.navbar-nav.mr-auto {
+    opacity: 1;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -144,19 +173,20 @@ body {
 
 .btn {
     font-weight: 200;
-    font-size: 2.0em;   
+    font-size: 2.0em;
     font-weight: 400;
     color: #000;
     background-color: #fff;
     border-color: white;
-    width:300px;
+    border-radius: 100px;
+    width: 234px;
 }
 
 .btn:hover {
     color: #000;
-    background:white;
+    background: white;
     border-color: white;
-        box-shadow: 0 4px 20px 0px black;
+    box-shadow: 0 4px 20px 0px black;
 
 }
 
