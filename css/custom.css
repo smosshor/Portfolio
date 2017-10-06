@@ -140,7 +140,7 @@ b {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-body {
+/*body {
     position: relative;
 }
 
@@ -158,10 +158,6 @@ body {
 
 .nav-item {
     color: black;
-}
-
-.navbar-nav.mr-auto {
-    opacity: 1;
 }
 
 .navbar-light .navbar-nav .nav-link {
