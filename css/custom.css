@@ -180,6 +180,7 @@ body {
     border-color: white;
     border-radius: 100px;
     width: 234px;
+    margin-bottom: 50px;
 }
 
 .btn:hover {
