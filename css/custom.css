@@ -150,7 +150,6 @@ body {
     background: #ffffff;
     height: 100px;
     color: black;
-    z-index: 2000;
 }
 
 .navbar-default .navbar-nav > li > a {
