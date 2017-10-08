@@ -106,7 +106,7 @@ i {
 a {
     font-family: 'Source Sans Pro', sans-serif;
     color: #FFB3B7;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 b {
@@ -115,19 +115,9 @@ b {
 
 /*font awesome */
 
-.fa-stack {
-    position: relative;
-    display: inline-block;
-    width: 2em;
-    height: 2em;
-    line-height: 2em;
-    vertical-align: middle;
-    z-index: 700;
-}
 
 .fa-2x {
-    color: #000;
-    padding-right: 10px;
+    font-size: 1.5em;
 }
 
 .fa-stack-1x,
@@ -144,7 +134,7 @@ b {
     position: relative;
 }
 
-/* navbar*/
+/* navbar */
 
 .navbar-default {
     background: #ffffff;
@@ -164,16 +154,28 @@ b {
     color: black;
 }
 
+.fixed-top {
+    background: white;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:active {
+    color:#FFB3B7;
+}
+
 /* buttons */
 
 .btn {
     font-weight: 200;
-    font-size: 2.0em;
+    font-size: 1.5em;
     font-weight: 400;
     color: #fff;
     border-color: white;
     border-radius: 4px;
-    width: 234px;
+    width: 100%;
     margin-bottom: 50px;
 }
 
