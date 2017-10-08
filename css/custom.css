@@ -185,5 +185,8 @@ b {
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05)
 }
 
-
+/* home page css */
+.homePortfolio p,.homePortfolio h3 {
+    color:white;
+}
 /* Portfolio Page CSS*/
