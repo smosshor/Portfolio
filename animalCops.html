@@ -133,76 +133,117 @@
 
                 <img src="ASSETS/AnimalCops/simpleMap.png" style="width:80%;">
             </div>
-            <div class="container">
-                <h2>Citizen Side</h2>
+            <div class="container-fluid">
+                <h1>Humane Officer Dashboard</h1>
                 <div class="row">
-                    <div class="col-sm-4">
-                        <figure class="figure">
-                            <img src="ASSETS/AnimalCops/report-assets/Iterations/CitizenLofi1.png" class="figure-img img-fluid rounded">
-                            <figcaption class="figure-caption">Paper prototypes; testing ways to provide relevant information about the law while reporting.</figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-sm-4">
-                        <figure class="figure">
-                            <img class="img-fluid" src="ASSETS/AnimalCops/report-assets/Iterations/mid-fi-incident-agency.png">
-                            <figcaption class="figure-caption">More refined prototype; gracefully informs users of the types of incidents that are out of juristicion with definitions. </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-sm-4" style="background:url(ASSETS/AnimalCops/report-assets/Iterations/Citizen%20Lo-Fi%20Pop%20Ups%20(2).png);">
+                    <ul class="nav nav-tabs flex-column col-3" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="1" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-expanded="true">Allow Humane Officers to prioritize reports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="2" data-toggle="tab" href="#profile" role="tab" aria-controls="profile">Provide location information</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="3" data-toggle="tab" href="#profile" role="tab" aria-controls="profile">Store reporter details and Humane Officer Notes</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content col-9" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <h4>Research Insight: Animal rescue operations are collaborative and co-dependent.</h4>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <figure class="figure">
+                                        <img src="ASSETS/AnimalCops/report-assets/Iterations/CitizenLofi1.png" class="figure-img img-fluid rounded">
+                                        <figcaption class="figure-caption">Paper prototypes; testing ways to provide relevant information about the law while reporting.</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-sm-4">
+                                    <figure class="figure">
+                                        <img class="img-fluid" src="ASSETS/AnimalCops/report-assets/Iterations/mid-fi-incident-agency.png">
+                                        <figcaption class="figure-caption">More refined prototype; gracefully informs users of the types of incidents that are out of juristicion with definitions. </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                        <div class="tab-pane fade" id="dropdown1" role="tabpanel" aria-labelledby="dropdown1-tab">...</div>
+                        <div class="tab-pane fade" id="dropdown2" role="tabpanel" aria-labelledby="dropdown2-tab">...</div>
                     </div>
                 </div>
             </div>
-            <!-- .footer start -->
-            <!-- ================ -->
 
-            <!-- ================ -->
-            <footer>
-                <div class="subfooter">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p class="text-center">Copyright © 2017 by Sarah Moss-Horwitz.</p>
-                            </div>
-                        </div>
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+
+
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="col-sm-4">
+                    <figure class="figure">
+                        <img class="img-fluid" src="ASSETS/AnimalCops/report-assets/Iterations/final%20HO%20dashboard%20map.png">
+                        <figcaption class="figure-caption">More refined prototype; gracefully informs users of the types of incidents that are out of juristicion with definitions. </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-pro" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- .footer start -->
+    <!-- ================ -->
+
+    <!-- ================ -->
+    <footer>
+        <div class="subfooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center">Copyright © 2017 by Sarah Moss-Horwitz.</p>
                     </div>
                 </div>
-                <!-- .subfooter end -->
-            </footer>
-            <!-- footer end -->
+            </div>
+        </div>
+        <!-- .subfooter end -->
+    </footer>
+    <!-- footer end -->
 
-            <!-- JavaScript files placed at the end of the document so the pages load faster
+    <!-- JavaScript files placed at the end of the document so the pages load faster
 		=================================================<!-- Custom Scripts -->
-            <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
 
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
-            <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
 
-            <script>
-                new WOW().init();
+    <script>
+        new WOW().init();
 
-            </script>
+    </script>
 
 
-            <script>
-                (function(i, s, o, g, r, a, m) {
-                    i['GoogleAnalyticsObject'] = r;
-                    i[r] = i[r] || function() {
-                        (i[r].q = i[r].q || []).push(arguments)
-                    }, i[r].l = 1 * new Date();
-                    a = s.createElement(o),
-                        m = s.getElementsByTagName(o)[0];
-                    a.async = 1;
-                    a.src = g;
-                    m.parentNode.insertBefore(a, m)
-                })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-                ga('create', 'UA-92514323-1', 'auto');
-                ga('send', 'pageview');
+        ga('create', 'UA-92514323-1', 'auto');
+        ga('send', 'pageview');
 
-            </script>
+    </script>
 </body>
 
 </html>
