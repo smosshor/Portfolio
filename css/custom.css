@@ -140,7 +140,6 @@ hr {
 }
 
 .card-body {
-    opacity: 0;
     z-index: 100px;
     background: rgba(0, 0, 0, .4);
 }
