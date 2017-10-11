@@ -127,13 +127,20 @@ hr {
     background-color: #000;
 }
 
-.card-title {
-    text-align: center;
+.card {
+    width: 24%;
+    padding: .75rem;
+    margin-bottom: 2rem;
 }
 
-.card {
-    border: none;
+.card > img {
+    margin-bottom: .75rem;
 }
+
+.card-text {
+    font-size: 85%;
+}
+
 
 /*font awesome */
 
