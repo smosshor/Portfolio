@@ -200,6 +200,14 @@ hr {
     color: #FFB3B7;
 }
 
+
+#myTab #tab.active {
+    color: #fff;
+    background: linear-gradient(to right, #A7BFE8, #6190E8);
+    border-radius: 6px;
+    border: none;
+}
+
 /* buttons */
 
 .btn {
