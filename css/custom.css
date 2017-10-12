@@ -65,7 +65,7 @@ h3,
 h4,
 h5 {
     font-family: 'Raleway';
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
     color: #000;
     line-height: 1.5;
@@ -86,6 +86,12 @@ h3 {
 h4 {
     font-size: 1em;
     font-weight: bolder;
+}
+
+h6 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-variant-caps: all-small-caps;
 }
 
 p,
@@ -195,6 +201,7 @@ hr {
 
 .fixed-top {
     background: white;
+    height: 50px;
 }
 
 .nav-link {
