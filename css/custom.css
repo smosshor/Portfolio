@@ -135,6 +135,11 @@ hr {
     height: 300px;
 }
 
+.gallery img {
+    width: 400px;
+    height: 400px;
+}
+
 .card-title {
     color: white;
 }
