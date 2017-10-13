@@ -214,10 +214,11 @@ hr {
 
 
 #myTab #tab.active {
-    color: #fff;
-    background: linear-gradient(to right, #A7BFE8, #6190E8);
-    border-radius: 6px;
+    color: black;
     border: none;
+    border-radius: 0px;
+    border-right: solid 2px #6190E8;
+    background: white;
 }
 
 /* buttons */
