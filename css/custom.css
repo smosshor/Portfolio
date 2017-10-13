@@ -220,7 +220,6 @@ hr {
     border: none;
 }
 
-
 /* buttons */
 
 .btn {
@@ -352,4 +351,30 @@ body {
     .featurette-heading {
         margin-top: 7rem;
     }
+}
+
+
+.gal {
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
+    column-count: 3;
+
+}
+
+.gal img {
+    width: 100%;
+    padding: 7px 0;
+}
+
+@media (max-width: 300px) {
+    .gal {
+        -webkit-column-count: 1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 1;
+        /* Firefox */
+        column-count: 1;
+    }
+
 }
