@@ -29,41 +29,38 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light navbar-inverse bg-inverse fixed-top">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+
+    <body data-spy="scroll" data-target="#navbarMain">
+
+        <nav id="navbarMain" class="navbar navbar-expand-md navbar-light navbar-inverse bg-inverse fixed-top">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-        <a class="navbar-brand" href="#">
-            <h4>Sarah Moss-Horwitz</h4>
-        </a>
+            <a class="navbar-brand" href="#">
+                <h4>Sarah Moss-Horwitz</h4>
+            </a>
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="http://www.sarahmh.com">Case Studies<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.linkedin.com/in/sarah-moss-horwitz-10915248/" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="smh_resume_oct.pdf" target="_blank"><i class="fa fa-2x fa-file-o"></i></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#projects"><span class="sr-only">(current)</span>Case Studies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
 
-    <!-- top section -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/sarah-moss-horwitz-10915248/" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="smh_resume_oct.pdf" target="_blank"><i class="fa fa-2x fa-file-o"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-    <div class="container-fluid" id="about" style="height:100vh;margin-top: 100px;">
-        <div class="container" style="margin-top: 150px">
-            <div class="row">
-                <div class="col-4">
-                    <h5 style="background:#ffffff; padding: 30px;">Hello! I'm a designer and researcher passionate about designing a world where learning is fun, making decisions is easy and people care about other people.</h5>
-                </div>
-                <!--
+        <!-- top section -->
+        <!--
                 <div class="col-8">
                     <ul class="list-unstyled">
                         <li class="media">
@@ -90,76 +87,83 @@
                     </ul>
                 </div>
                 <!-- Case Study 1 -->
-            </div>
-        </div>
-    </div>
 
-    <div class="container-fluid justify-content-center" style="margin-top:150px;">
-        <h1>Case Studies</h1>
-        <!-- Case Study 1 -->
-    </div>
-    <div class="container portfolioSection animated slideInUp wow">
-        <div class="row ">
-            <div class="col-sm-7">
-                <a href="https://shorwitz.myportfolio.com/animal-cop">
+
+        <div id="projects" class="container-fluid justify-content-center" style="margin-top:150px;">
+            <h1>Case Studies</h1>
+            <!-- Case Study 1 -->
+            <div class="container portfolioSection animated slideInUp wow">
+                <div class="row ">
+                    <div class="col-sm-7">
+                        <a href="https://shorwitz.myportfolio.com/animal-cop">
             <img class="img-fluid rounded mb-3 mb-md-0" style="margin-top: 10%;" src="ASSETS/AnimalCops/report-assets/Mockups/desktopMockup2.png" alt="">
             </a>
+                    </div>
+                    <div class="col-sm-5">
+                        <h3>Animal Cop</h3>
+                        <p>Animal Cop helps concerned citizens report animal abuse, and supports shelters fight bad guys.</p>
+                        <a class="btn primary" target="_blank" href="/animalcop.html">See the tools in action &#x2192;</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-5">
-                <h3>Animal Cop</h3>
-                <p>Animal Cop helps concerned citizens report animal abuse, and supports shelters fight bad guys.</p>
-                <a class="btn primary" target="_blank" href="/animalcop.html">See it in action &#x2192;</a>
-            </div>
-        </div>
-    </div>
 
-    <!-- Case Study 2 -->
-    <div class="container portfolioSection animated slideInUp wow">
-        <div class="row">
-            <div class="col-sm-7">
-                <a href="https://shorwitz.myportfolio.com/climate-change-dashboard">
+            <!-- Case Study 2 -->
+            <div class="container portfolioSection animated slideInUp wow">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <a href="https://shorwitz.myportfolio.com/climate-change-dashboard">
             <img class="img-fluid rounded mb-3 mb-md-0" src="ASSETS/Climate Dashboard/yemen_mockup.png" alt="">
           </a>
-            </div>
+                    </div>
 
-            <div class="col-sm-5">
-                <h3>Yemen Water Tracking</h3>
-                <p>The Yemen Water Policy dashboard provides real time, highly relevant information that decision makers with little science background can interpret and use effectively in their work. </p>
-                <a class="btn primary" target="_blank" href="https://shorwitz.myportfolio.com/climate-change-dashboard">How we told a story &#x2192;</a>
+                    <div class="col-sm-5">
+                        <h3>Yemen Water Tracking</h3>
+                        <p>The Yemen Water Policy dashboard provides real time, highly relevant information that decision makers with little science background can interpret and use effectively in their work. </p>
+                        <a class="btn primary" target="_blank" href="https://shorwitz.myportfolio.com/climate-change-dashboard">Telling a story with data &#x2192;</a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <!-- Case Study 3 -->
-    <div class="container portfolioSection animated slideInUp wow">
-        <div class="row">
-            <div class="col-sm-7">
-                <a href="https://shorwitz.myportfolio.com/eatsleeppoop">
+            <!-- Case Study 3 -->
+            <div class="container portfolioSection animated slideInUp wow">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <a href="https://shorwitz.myportfolio.com/eatsleeppoop">
             <img class="img-fluid rounded mb-3 mb-md-0" style="margin-top: 65px;" src="ASSETS/eatsleeppoop/screenshot1.png" alt="">
           </a>
+                    </div>
+                    <div class="col-sm-5">
+                        <h3>EatSleepPoop</h3>
+                        <p>EatSleepPoop App helps parents log important information about their newborn babies. I recently joined the team to redesign the UX based on user insights and testing.</p>
+                        <a class="btn primary" target="_blank" href="https://shorwitz.myportfolio.com/eatsleeppoop">What's in the works &#x2192;</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-5">
-                <h3>EatSleepPoop</h3>
-                <p>EatSleepPoop App helps parents log important information about their newborn babies. I recently joined the team to redesign the UX based on user insights and testing.</p>
-                <a class="btn primary" target="_blank" href="https://shorwitz.myportfolio.com/eatsleeppoop">Where we're at &#x2192;</a>
-            </div>
-        </div>
-    </div>
-    <!-- Case Study 4 -->
-    <div class="container portfolioSection animated slideInUp wow">
-        <div class="row">
-            <div class="col-sm-7">
-                <a href="https://shorwitz.myportfolio.com/best-practices-of-teaching-online">
+            <!-- Case Study 4 -->
+            <div class="container portfolioSection animated slideInUp wow">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <a href="https://shorwitz.myportfolio.com/best-practices-of-teaching-online">
             <img class="img-fluid rounded mb-3 mb-md-0" style="box-shadow: grey 0px 10px 10px 0px;
     width: 51%;margin-left: 30%;" src="ASSETS/Best%20Practices/workbook/workbook-01.png" alt="">
           </a>
-            </div>
-            <div class="col-sm-5">
-                <h3>Best Practices of Teaching Online</h3>
-                <p>Best Practices of Teaching Online supports novice online educators in building their course based on cognitive learning theories and interaction design principles, complete with a pdf workbook.</p>
-                <a class="btn primary" target="_blank" href="https://shorwitz.myportfolio.com/eatsleeppoop">Steal the guide &#x2192;</a>
+                    </div>
+                    <div class="col-sm-5">
+                        <h3>Best Practices of Teaching Online</h3>
+                        <p>Best Practices of Teaching Online supports novice online educators in building their course based on cognitive learning theories and interaction design principles, complete with a pdf workbook.</p>
+                        <a class="btn primary" target="_blank" href="https://shorwitz.myportfolio.com/eatsleeppoop">Steal the guide &#x2192;</a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+        <div id="about" class="container-fluid" style="margin-top: 150px;">
+            <h1>hello!</h1>
+            <p style="color:#fff"> I'm a digital designer, developer and researcher currently working with <a style="color:#F84A13" target="_blank" href="http://www.crowdrise.com">CrowdRise</a>, part of the incredible<a style="color:rgb(39, 241, 224)" target="_blank" href="http://www.gofundme.com"> GoFundMe</a> family. I get to help awesome non-profit organizations from the Red Cross to American Cancer Society to your local non-profit animal shelters.
+                <br><br> I recently graduated from Carnegie Mellon University with majors in <a href="https://www.hcii.cmu.edu/">Human Computer Interaction</a>, Decision Science and a minor in Learning Media. I really like designing things that encourage people to make better decisions, do more good in the world, and live healthier lives. I believe in the power of user-centered design to bridge the gap between real problems and imagined solutions.
+            </p>
+            <br><br>
+        </div>
+
+    </body>
     <!-- .footer start -->
     <footer>
         <div class="subfooter">
