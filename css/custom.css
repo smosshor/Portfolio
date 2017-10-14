@@ -15,16 +15,6 @@ body {
     top: 0;
 }
 
-.load-page {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url('/Users/Sarah/smosshor.github.io/Preloader_1.gif') center no-repeat #fff;
-}
-
 /* SVG logo animation */
 
 svg {
