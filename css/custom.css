@@ -175,9 +175,14 @@ hr {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+#about {
+    background: url(/Users/Sarah/Documents/GitHub/Portfolio/ASSETS/General Process pictures/affinity_diagram/IMG_20170214_211629.jpg);
+}
+
 /*body {
     position: relative;
 }
+
 
 /* navbar */
 
