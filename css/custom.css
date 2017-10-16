@@ -15,16 +15,6 @@ body {
     top: 0;
 }
 
-.load-page {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url('/Users/Sarah/smosshor.github.io/Preloader_1.gif') center no-repeat #fff;
-}
-
 /* SVG logo animation */
 
 svg {
@@ -67,7 +57,7 @@ h5 {
     font-family: 'Raleway';
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #000;
+    color: #232526;
     line-height: 1.5;
 }
 
@@ -175,49 +165,56 @@ hr {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+#about {
+    background: url(/ASSETS/backgrounds/93-01-01.png);
+    background: #56CCF2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 /*body {
     position: relative;
 }
 
+
 /* navbar */
 
 .navbar-default {
-    background: #ffffff;
+    background: #0000;
     height: 100px;
-    color: black;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: #fff;
-}
-
-.nav-item {
-    color: black;
+    color: white;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: black;
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #56CCF2;
+}
+
+.navbar-brand h4 {
+    margin-top: 5px;
 }
 
 .fixed-top {
+    background: #56CCF2;
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
     background: white;
-    height: 50px;
+    height: 70px;
+    color: white;
+    border-bottom: #56CCF2 solid 3px;
 }
-
-.nav-link {
-    color: black;
-}
-
-.nav-link:active {
-    color: #FFB3B7;
-}
-
 
 #myTab #tab.active {
-    color: #fff;
-    background: linear-gradient(to right, #A7BFE8, #6190E8);
-    border-radius: 6px;
+    color: black;
     border: none;
+    border-radius: 0px;
+    border-right: solid 2px #6190E8;
+    background: white;
 }
 
 /* buttons */
@@ -227,17 +224,25 @@ hr {
     font-size: 1.5em;
     font-weight: 400;
     color: #fff;
-    border-color: white;
     border-radius: 4px;
     width: 100%;
     margin-bottom: 50px;
+    border: none;
+}
+
+.btn.primary {
+    color: #000;
+    background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2)
 }
 
 .btn:hover {
-    color: #000;
-    background: white;
-    border-color: white;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05)
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 /* home page css */
@@ -377,4 +382,31 @@ body {
         column-count: 1;
     }
 
+}
+
+.subfooter {
+    min-height: 200px;
+}
+
+
+
+
+.resize-drag {
+    background-color: #29e;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px 20px;
+
+    width: 120px;
+
+    /* This makes things *much* easier */
+    box-sizing: border-box;
+}
+
+.resize-container {
+    width: 100%;
+    height: 240px;
 }
